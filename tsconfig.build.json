@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // or "es6"
+    "module": "esnext",   // or "commonjs" if you want a CommonJS build as well
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx",
+    "declaration": true,      // Generate .d.ts files
+    "declarationDir": "./dist", // Output directory for declaration files
+    "sourceMap": true,
+    "outDir": "./dist",       // Output directory for JavaScript files
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "src/components/RobustImage/**/*",
+    "src/types/**/*"
+  ],
+  "exclude": ["node_modules", "src/**/*.test.ts", "src/**/*.test.tsx"]
+}

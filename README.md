@@ -1,8 +1,7 @@
 **1. Package Description (for `package.json` and npm):**
 
-```
+
 A versatile and robust image component for React, designed to enhance image handling in your applications. Offers built-in lazy loading, customizable fallback images, and improved accessibility, ensuring a seamless image experience with minimal configuration.  Handles missing or broken image sources gracefully, replacing them with a user-defined fallback or a default placeholder. Simplifies image optimization and improves overall website performance.
-```
 
 **Explanation of Key Elements in the Description:**
 
@@ -20,11 +19,6 @@ A versatile and robust image component for React, designed to enhance image hand
 Create a `README.md` file in the root directory of your `chrobustimage` package. This file will be displayed on npm and GitHub and should provide all the information users need to install and use your component.
 
 ```markdown
-# chrobustimage
-
-[![npm version](https://badge.fury.io/js/chrobustimage.svg)](https://badge.fury.io/js/chrobustimage)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 A versatile and robust image component for React, designed to enhance image handling in your applications. Offers built-in lazy loading, customizable fallback images, and improved accessibility, ensuring a seamless image experience with minimal configuration. Handles missing or broken image sources gracefully, replacing them with a user-defined fallback or a default placeholder. Simplifies image optimization and improves overall website performance.
 
 ## Features

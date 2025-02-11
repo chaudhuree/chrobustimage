@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+.env
+src # (optional - if your build process only uses dist/)
+.git
+.gitignore

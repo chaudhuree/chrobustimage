@@ -1,0 +1,69 @@
+{
+  "name": "chrobustimage",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "A robust and user-friendly image component for Javascript Ecosystem",
+  "keywords": [
+    "react",
+    "image",
+    "component",
+    "lazy loading",
+    "fallback",
+    "error handling",
+    "accessibility",
+    "vite"
+  ],
+  "main": "./dist/robustimage.umd.js",
+  "module": "./dist/robustimage.es.js",
+  "types": "./dist/components/RobustImage/RobustImage.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/robustimage.es.js",
+      "require": "./dist/robustimage.umd.js",
+      "types": "./dist/components/RobustImage/RobustImage.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.build.json && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "author": "chaudhuree",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/chaudhuree/chrobustimage.git"
+  },
+  "files": [
+    "dist",
+    "src/assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@types/node": "^22.13.1",
+    "@types/prop-types": "^15.7.14",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "globals": "^15.14.0",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-prop-types": "^0.4.0"
+  }
+}
