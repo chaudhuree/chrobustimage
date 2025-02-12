@@ -102,35 +102,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-[Your Name](Your GitHub Profile Link)
-
-```
-
-**Explanation of Sections:**
-
-*   **Badges:**  Show npm version and license badges.  You can get these badges from [shields.io](https://shields.io/).
-
-*   **Description:**  Reiterate the concise package description from above.
-
-*   **Features:**  A bulleted list that expands on the key benefits of your component.
-
-*   **Installation:**  Clear instructions on how to install the package.
-
-*   **Usage:**  A clear and concise example of how to use the component in a React application.
-
-*   **Props:** A table that documents all the available props, their types, default values, and descriptions. *This is crucial for usability.*
-
-*   **Other Sections:** Additional sections explaining specific behaviors (e.g., fallback image handling, placeholder content, lazy loading) or customization options.
-
-*   **Contributing:**  Information on how others can contribute to your project.
-
-*   **License:**  Information about the license under which your component is released.
-
-*   **Author:**  Your name and a link to your GitHub profile (optional).
-
-**3. License File (LICENSE):**
-
-Create a `LICENSE` file (usually MIT) in the root directory:
+[chaudhuree](https://github.com/chaudhuree)
 
 ```
 MIT License
