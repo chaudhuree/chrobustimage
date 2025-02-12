@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 const placeHolderImage = `data:image/svg+xml;base64,${btoa('<svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="#f0f0f0"/><text x="50%" y="50%" font-family="Arial" font-size="10" fill="#666" text-anchor="middle" dy=".3em">Issue With Image</text></svg>')}`;
 
 interface RobustImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
-  src: string;
+  src?: string;
   alt?: string;
   fallbackSrc?: string;
   lazy?: boolean;
@@ -27,7 +27,7 @@ const RobustImage: React.FC<RobustImageProps> = ({
   containerStyle = {},
   ...props
 }) => {
-  const [source, setSource] = useState<string | null>(src);
+  const [source, setSource] = useState<string>(src ?? placeHolderImage);
   const [loading, setLoading] = useState(true);
   const imgRef = useRef<HTMLImageElement>(null);
 
@@ -108,7 +108,7 @@ const RobustImage: React.FC<RobustImageProps> = ({
 
       <img
         ref={imgRef}
-        src={source || ''}
+        src={source}
         alt={alt}
         className={className}
         style={{

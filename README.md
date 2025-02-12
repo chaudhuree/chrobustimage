@@ -63,6 +63,21 @@ function MyComponent() {
 
 export default MyComponent;
 ```
+### Or you can just write the component without any props and it will work
+
+```javascript
+import React from 'react';
+import RobustImage from 'chrobustimage';
+
+function MyComponent() {
+  return (
+    <div>
+      <RobustImage/>
+    </div>
+  );
+}
+export default MyComponent;
+```
 
 ### Props
 

@@ -12,8 +12,6 @@ function App() {
       <h1>Robust Image Showcase</h1>
       
       <RobustImage 
-        src="https://picsum.photos/800/600" 
-        alt="Random Image"
         style={{ 
           maxWidth: '100%', 
           borderRadius: '10px', 
